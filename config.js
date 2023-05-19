@@ -32,11 +32,11 @@ const urls = [ // 付款方式列表
     {
         name: '微信',
         ua: 'MicroMessenger\/',
-        img: 'wechat.png' // 使用 img 而非 addr 参数以使用小程序码
+        img: 'wechat.jpg' // 使用 img 而非 addr 参数以使用小程序码
     },
     {
         name: 'QQ', 
         ua: 'QQ\/',
-        addr: 'https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQutyKhwYYu-3C9gU%3D_xxx_sign&u=1625468474&n=%E7%91%B6%E7%91%B6%E4%B9%9F%E6%83%B3%E8%B5%A2'
+        img: 'qqsk.png'
     }
 ]
