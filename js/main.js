@@ -128,7 +128,7 @@ function init() {
     }
     
     // 付款方式切换按钮
-    $('#switch-btn').click(function () {
+ <!--   $('#switch-btn').click(function () {
         if ($(this).prop('name') == 'payment') {
             $(this).prop('name', 'full');
             $(this).html('<i class="icon icon-loop"></i>使用' + payment_app + '付款');
@@ -138,7 +138,7 @@ function init() {
             $(this).html('<i class="icon icon-loop"></i>使用其他付款方式');
             make_code_if_online(payment_url);
         }
-    })
+    }) -->
 
     // 头像点击跳转
     $('#user').click(() => {
