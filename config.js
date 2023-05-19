@@ -3,11 +3,11 @@
 const basic = { // 基础设置
     favicon: 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👻</text></svg>', // 页面图标
     title: '(～￣▽￣)～', // 页面标题
-    avatar: 'https://gravatar.loli.net/avatar/', // 头像 URL
-    name: '这是一个昵称！', // 头像下的昵称
-    sign: '个性签名或者提示文字 ( •̀ ω •́ )✧', // 个性签名或提示文字，可使用 HTML 格式
-    user_page: 'https://github.com/ghost', // 点击头像或名字时跳转的链接，留空或删除则不跳转
-    footer: '这是一个页脚！', // 页脚文字，可使用 HTML 格式
+    avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=1625468474&spec=640&img_type=jpg', // 头像 URL
+    name: '川岛莉莉子', // 头像下的昵称
+    sign: ' ( •̀ ω •́ )✧', // 个性签名或提示文字，可使用 HTML 格式
+    user_page: 'https://sherrys7.github.io', // 点击头像或名字时跳转的链接，留空或删除则不跳转
+    footer: '', // 页脚文字，可使用 HTML 格式
     uri_redirect: false // 若收款码 URL 是网址，是否直接跳转而不显示二维码
 }
 
@@ -27,11 +27,16 @@ const urls = [ // 付款方式列表
     {
         name: '支付宝', // 名称
         ua: 'Alipay', // User-Agent 正则表达式
-        addr: 'https://qr.alipay.com/awa' // 收款码 URL
+        addr: 'https://qr.alipay.com/fkx19679b5cgqbmv53om170' // 收款码 URL
     },
     {
         name: '微信',
         ua: 'MicroMessenger\/',
         img: 'wechat.png' // 使用 img 而非 addr 参数以使用小程序码
+    },
+    {
+        name: 'QQ', 
+        ua: 'QQ\/',
+        addr: 'https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQutyKhwYYu-3C9gU%3D_xxx_sign&u=1625468474&n=%E7%91%B6%E7%91%B6%E4%B9%9F%E6%83%B3%E8%B5%A2'
     }
 ]
